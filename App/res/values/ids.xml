@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="image_tag" type="id"/>
+    <item name="position_tag" type="id"/>
+    <item name="holder" type="id"/>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <GridView
+        android:id="@+id/grid_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer_image"
+        android:layout_below="@+id/edit_search"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <ImageView
+        android:id="@+id/loading_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/list_loader"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/footer_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/list_loader"
+        android:visibility="gone" />
+
+</RelativeLayout>

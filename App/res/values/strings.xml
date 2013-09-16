@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google Images</string>
+    <string name="action_about">About</string>
+    <string name="search_hint">Search for Images</string>
+    <string-array name="screen_array">
+        <item>Search</item>
+        <item>History</item>
+    </string-array>
+	<string name="drawer_open">open</string>
+	<string name="drawer_close">close</string>
+	<string name="network_error">Network not available without internet this app does not work</string>
+</resources>
